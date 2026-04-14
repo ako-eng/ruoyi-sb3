@@ -9,6 +9,7 @@ import org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration;
  * @author ruoyi
  */
 
+
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
 public class RuoYiApplication
 {
